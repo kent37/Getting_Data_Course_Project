@@ -16,6 +16,10 @@ The data contains one row for each subject and activity combination and one colu
 2. Each observation forms a row. There is one row for each combination of subject and activity.
 3. Each type of observational unit forms a table.
 
+#### Units
+
+Each datum in this data set is the mean of data points from the original data. Thus the units are the same as in the original study.
+
 #### Subject column
 
 The `subject` column contains the subject numbers from the original study.
