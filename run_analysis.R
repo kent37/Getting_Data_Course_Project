@@ -57,4 +57,4 @@ data = cbind(subject, activity, X)
 library(plyr)
 tidy = ddply(data, .(subject, activity), function(df) colMeans(df[,-(1:2)]))
 
-write.table(tidy, file='AverageMeanStd.txt', row.names=FALSE)
+write.table(tidy, file='AverageMeanStd.txt', row.names=FALSE, quote=FALSE)
